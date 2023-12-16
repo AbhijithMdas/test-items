@@ -1,0 +1,41 @@
+/* src/App.css */
+body {
+  background-color: black; /* Set the background color of the entire page to black */
+  color: white; /* Set the text color to white or any color that suits your design */
+}
+
+.app {
+  text-align: center;
+  margin: 20px;
+}
+
+.product-box-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 2 columns */
+  grid-template-rows: repeat(3, 1fr); /* 3 rows */
+  gap: 30px; /* Set the gap between product boxes */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  padding-left:20%;
+}
+
+.product-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%; /* Take up 100% width of the grid cell */
+  height: 100%; /* Take up 100% height of the grid cell */
+  background-color: white; /* Set the background color of the product boxes to white */
+  color: black; /* Set the text color to black or any color that suits your design */
+  text-align: center;
+  
+}
+
+.product-module, .chipset-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.cart {
+  margin-top: 20px;
+}
